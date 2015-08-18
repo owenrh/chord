@@ -33,6 +33,8 @@
 
   :source-paths ["src"]
 
+  :jvm-opts ["-XX:MaxPermSize=128M"]
+
   :profiles {:dev {:dependencies [[org.clojure/clojurescript "0.0-3308"]
                                   [reagent "0.5.0"]
                                   [weasel "0.7.0"]
